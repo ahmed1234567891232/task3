@@ -1,0 +1,77 @@
+div{
+    background-color: #eee;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.ImgOne{
+    background-image: url("WhatsApp\ Image\ 2023-02-21\ at\ 14.33.36.jpg");
+    background-repeat: no-repeat;
+    
+}
+.ImgTwo{
+    background-image: url("WhatsApp\ Image\ 2023-02-21\ at\ 14.33.36.jpg");
+    background-repeat: repeat-y;
+    background-position: right ;
+}
+.ImgThree{
+    background-image: url("WhatsApp\ Image\ 2023-02-21\ at\ 14.33.36.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.ImgFour{
+    background-image: url("WhatsApp\ Image\ 2023-02-21\ at\ 14.33.36.jpg");
+    background-repeat: repeat;  
+}
+.ShapeOne{
+    color: black;
+    outline: 5px solid black;
+    border: 5px solid red;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+.ShapeTwo{
+    color: black;
+    outline: 5px solid black;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+.ShapeThree{
+    color: black;
+    outline: 5px solid black;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed blue;
+    border-left: 5px dashed yellow;
+    border-right: 5px dashed green;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+
+.ShapeFour{
+    color: black;
+    width: 400px;
+    border-left: red solid 5px;
+    display: block;
+}
+.ShapeFive{
+    color: black;
+    width: 400px;
+    visibility: hidden;
+}
+
+.Shapesix{
+    color: black;
+    width: 400px;
+    display: block;
+    border-left: green solid 5px;
+}
